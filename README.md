@@ -1,4 +1,4 @@
-#🎮 Game Title: Python Snake Classic
+🎮 Game Title: Python Snake Classic
 
 🌟 Overview:
 A grid-based Snake game where you control a red snake to eat green snacks, grow in length, and avoid collisions. With a minimalistic and clean visual style, the game offers a nostalgic yet upgraded experience with features like:
@@ -29,13 +29,13 @@ Colliding with the wall or your own body ends the game.
 
 Snake turns are managed with a turn tracking system so all body parts follow the head smoothly.
 
-#🍏 Snack Logic:
+🍏 Snack Logic:
 
 Green snacks appear randomly on the grid.
 
 The position is ensured not to overlap with the snake's body using a filtered random selection.
 
-#💥 Game Over:
+💥 Game Over:
 
 If you crash into yourself or the wall:
 
@@ -55,7 +55,7 @@ Real-time score display at the top left corner.
 
 Exit button at top-right (clickable with mouse).
 
-#🧩 Code Architecture:
+🧩 Code Architecture:
 
 cube class: Represents each segment of the snake and the snack.
 
@@ -69,7 +69,7 @@ show_game_over(): Uses tkinter.messagebox to show score popup.
 
 main(): The main game loop — handles game flow, rendering, collisions, and inputs.
 
-#💡 Bonus Functionalities:
+💡 Bonus Functionalities:
 
 🚪 Clickable Exit Button (top-right corner)
 
